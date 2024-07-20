@@ -1,0 +1,83 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    background-color: #13121c;
+    color: #ffffff;
+}
+#container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.navbar ul  {
+    display: flex;
+}
+ .nav a {
+    text-decoration: none;
+    margin: 20px;
+}
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+}
+
+/* main-section  */
+#main-section{
+    display: flex;
+    justify-content:space-around;
+}
+
+/* introduction  */
+#introduction{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* social  */
+#socail-id{
+    text-align: center;
+}
+.icon{
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* responsive   */
+@media(max-width:500px) {
+    .navbar{
+        display: none;
+    }
+    .socail-account{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        font-size: 30px;
+    }
+    #main-section{
+        flex-wrap: wrap;
+    }
+    .intro{
+        text-align: center;
+    }
+    #introduction{
+        flex-wrap: wrap;
+    }
+    .myself{
+        text-align: center;
+    }
+}
