@@ -4,6 +4,7 @@
     font-style: italic;
     background-color: #13121c;
     color: #ffffff;
+    box-sizing: border-box;
 }
 #container{
 display: flex;
@@ -28,36 +29,6 @@ align-items: center;
     text-align: center;
 }
 /* projcet  */
-#project{
-    display: flex;
-    justify-content: space-around;
-    transition: 3s;
-}
-#project :hover{
-    transform: scale(1.1);
-    box-shadow: 2px 2px 2px purple;
-}
-.item{
-    padding: 1%;
-    text-align: center;
-    width:20%;
-    height:20%;
-    border: 1px solid white;
-    border-radius: 4px;
-}
-.btn{
-    background-color: transparent;
-    border-radius: 3px;
-    border: 1px solid white;
-    padding: 4px;
-    margin: 10px;
-    cursor: pointer;
-    width: 100px;
-}
-
-.btn a {
-    text-decoration: none;
-}
 
 
 
@@ -105,4 +76,7 @@ align-items: center;
         display: block;
         font-size: 30px;
     }
+    /* #project{
+        flex-wrap: wrap;
+    } */
 }

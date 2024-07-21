@@ -57,7 +57,7 @@ align-items: center;
 
 
 /* responsive   */
-@media(max-width:500px) {
+@media(max-width:600px) {
     .navbar{
         display: none;
     }
@@ -79,5 +79,10 @@ align-items: center;
     }
     .myself{
         text-align: center;
+    }
+}
+@media (max-width:768px) {
+    #introduction{
+        flex-wrap: wrap;
     }
 }

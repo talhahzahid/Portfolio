@@ -42,9 +42,11 @@ align-items: center;
     text-align: center;
 }
 .btn{
-    border: 1px solid #ffffff;
+    border: 1px solid #623686;
     padding: 10px;
     cursor: pointer;
+    border-radius: 4px;
+    background-color:#623686;
 }
 
 
@@ -87,6 +89,9 @@ align-items: center;
     .hamburger{
         display: block;
         font-size: 30px;
+    }
+    #input{
+        width: 200px;
     }
 }
 
