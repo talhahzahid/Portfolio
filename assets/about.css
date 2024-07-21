@@ -25,6 +25,45 @@
         display: none;
     }
 
+    /* about my self section  */
+    #about-life{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /* skill section  */
+    .skill{
+        text-align: center;
+    }
+    .box-parents{
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+        transition: 4s;
+    }
+.child{
+    width: 140px;
+    height: 140px;
+    border: 1px solid white;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    line-height: 200px;
+}
+.child :hover{
+    transform:scale(1.3);
+}
+.skill-icon{
+    font-size: 100px;
+}
+.box-parents-2{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    transition: 4s;
+}
 
 
 
@@ -48,7 +87,32 @@
 
 
 
-@media(max-width:500px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
     .navbar{
         display: none;
     }
@@ -58,5 +122,19 @@
     .hamburger{
         display: block;
         font-size: 30px;
+    }
+    #about-life{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
+@media (max-width:768px)  {
+    #about-life{
+        text-align: center;
+    }
+}
+@media (max-width:1029px)  {
+    #about-life{
+        text-align: center;
     }
 }

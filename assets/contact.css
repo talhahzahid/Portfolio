@@ -1,0 +1,102 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    background-color: #13121c;
+    color: #ffffff;
+}
+#container{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.navbar ul  {
+    display: flex;
+}
+ .nav a {
+    text-decoration: none;
+    margin: 20px;
+}
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.hamburger{
+    display: none;
+}
+/* client touch  */
+#get-touch{
+    text-align: center;
+}
+#form{
+    display: flex;
+    justify-content:center ;
+}
+#input{
+    width:400px;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+#btn{
+    text-align: center;
+}
+.btn{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px) {
+    .navbar{
+        display: none;
+    }
+    .socail-account{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        font-size: 30px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
