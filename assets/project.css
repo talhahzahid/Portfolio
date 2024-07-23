@@ -88,6 +88,15 @@ nav ul li a{
     #menuList{
         transition: all 0.5s;
     }
+    #father-box{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+}
+@media (max-width:1024px) {
+    #father-box{
+        gap: 20px;
+    }
 }
 
 
@@ -107,3 +116,53 @@ nav ul li a{
 
 
 
+
+
+
+#father-box{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box {
+    width: 400px;
+    background-color:#623686;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(211, 62, 248, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(73, 13, 151, 0.2);
+  }
+
+  .box img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .box-content {
+    padding: 15px;
+  }
+
+  .btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin-right: 10px;
+    background-color: #623686;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+
+  /* .btn:hover {
+    background-color: #623686;
+  } */
