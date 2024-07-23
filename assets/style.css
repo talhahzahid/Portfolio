@@ -1,29 +1,52 @@
 * {
+    margin: 0%;
+    padding: 0%;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: italic;
     background-color: #13121c;
+    box-sizing: border-box;
     color: #ffffff;
 }
-#container{
-display: flex;
-justify-content: space-around;
-align-items: center;
-}
-.navbar ul  {
+
+nav{
+    padding: 10px 30px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:  #13121c;
+    position: relative;
+    height: 70px;
 }
- .nav a {
+
+.logo{
+    color: #fff;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
     text-decoration: none;
-    margin: 20px;
+    color: #fff;
 }
-.icon{
-    font-size: 2rem;
-    cursor: pointer;
-}
-.hamburger{
+
+.menu-icon{
     display: none;
 }
+
+.menu-icon i{
+    color: #fff;
+    font-size: 30px;
+}
+
 
 /* main-section  */
 #main-section{
@@ -44,6 +67,7 @@ align-items: center;
 }
 .icon{
     margin: 20px;
+    font-size: 30px;
 }
 
 
@@ -56,17 +80,51 @@ align-items: center;
 
 
 
-/* responsive   */
-@media(max-width:600px) {
-    .navbar{
-        display: none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:600px) {
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background:  #13121c;
+        gap: 0;
+        overflow: hidden;
     }
-    .socail-account{
-        display: none;
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
     }
-    .hamburger{
+    .menu-icon{
         display: block;
-        font-size: 30px;
+    }
+    #menuList{
+        transition: all 0.5s;
     }
     #main-section{
         flex-wrap: wrap;
@@ -85,4 +143,20 @@ align-items: center;
     #introduction{
         flex-wrap: wrap;
     }
-}
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
